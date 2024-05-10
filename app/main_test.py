@@ -11,6 +11,7 @@ class TestMain(unittest.TestCase):
         self.assertEqual(return_backwards_string(''), '')
 
     def test_get_mode(self):
+        raise Exception()
         self.assertEqual(get_mode(), os.environ.get('MODE'))
 
 
